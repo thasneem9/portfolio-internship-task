@@ -1,7 +1,7 @@
 import React from 'react';
 import './header.css';
 import { Typewriter } from 'react-simple-typewriter'; // Import the new package
-
+import logo from '../../assets/logo.png' 
 function Header() {
   return (
     <div className="container">
@@ -34,7 +34,7 @@ function Header() {
       </div>
       
       <div className="col-2">
-        <img src="./assets/logo.png" alt="Logo" />
+        <img src={logo} alt="Logo" />
       </div>
     </div>
   );
