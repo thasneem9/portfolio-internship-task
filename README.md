@@ -41,5 +41,5 @@ npm run dev
 
 ## 📬 Contact
 📧 Email: thasneemchalil@gmail.com
-🔗 LinkedIn: [Your Profile](https://www.linkedin.com/in/thasneem-c-a70a75206/)
+🔗 LinkedIn: [My linkedin Profile](https://www.linkedin.com/in/thasneem-c-a70a75206/)
 
