@@ -1,0 +1,111 @@
+.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.col-1{
+    display: flex;
+    flex-direction: column;
+
+}
+.h2-hello {
+
+        font-size: 72px;
+        background: -webkit-linear-gradient(#c181f8, #da2a7c);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+      
+        margin: 50px 0px 0px 80px;
+        padding:0;
+    }
+  .h2-typing-effect{
+    
+    margin:0;
+    padding:0;
+  }
+  
+.col-1 p{
+    color:#ADB7BA;
+/*     border:1px solid white; */
+    margin-left:80px;
+    font-size: 25px;
+    width:850px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.col-2{
+/*     border:1px solid white;  */
+    margin:50px 80px 0px 30px;
+}
+.button-group{
+    display: flex;
+    flex-direction: row;
+    margin-left:80px;
+    gap:20px
+
+}
+.gradient-button{
+   /*  border-radius: 40px;
+    padding:12px;
+    background: linear-gradient(45deg, #696ff6, #A954F4, #cf4dc0);
+    color: white;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    */
+
+    background: linear-gradient(45deg, #696ff6, #cf4dc0, #ff6699);
+  color: white;
+  padding: 13px 23px;
+  font-size: 19px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px; 
+  cursor: pointer;
+}
+.border-button {
+    position: relative;
+    background: white;
+    color: #cf4dc0;
+    padding: 12px 24px;
+    font-size: 19px;
+    font-weight: bold;
+    border: 4px solid transparent;
+    border-radius: 50px;
+    cursor: pointer;
+   
+}
+
+.border-button {
+    position: relative;
+    padding: 12px 24px;
+    font-size: 18px;
+    font-weight: bold;
+    color: white; /* Adjust text color as needed */
+    background-color: transparent;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    isolation: isolate;
+}
+
+.border-button::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    padding: 3px; /* Adjust thickness of the border */
+    border-radius: 20px;
+    background: linear-gradient(45deg, #696ff6, #cf4dc0, #ff6699);
+    -webkit-mask: 
+        linear-gradient(white 0 0) content-box, 
+        linear-gradient(white 0 0);
+    mask: 
+        linear-gradient(white 0 0) content-box, 
+        linear-gradient(white 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+}
+
+button:hover {
+    transform: scale(1.05);
+}
