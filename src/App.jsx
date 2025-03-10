@@ -1,5 +1,6 @@
 
 import './App.css'
+import { AbouteMe } from './components/AbouteMe'
 import Header  from './components/Header'
 import NavBar from './components/NavBar'
 
@@ -10,6 +11,7 @@ function App() {
     <>
      <NavBar/>
      <Header/>
+     <AbouteMe/>
    
     </>
   )

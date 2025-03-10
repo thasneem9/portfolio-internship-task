@@ -1,0 +1,78 @@
+.about-container{
+    display: flex;
+    flex-direction: row;
+    gap:50px;
+    margin-left:80px;
+    margin-top:90px;
+
+}  
+
+.about-container img{
+    width:600px;
+    height: 450px;
+    opacity:60%;
+    -webkit-mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);
+    mask-image: radial-gradient(ellipse at center, rgba(0,0,0,1) 60%, rgba(0,0,0,0) 100%);
+
+   
+}
+.about-section h2{
+    color:#fff;
+    font-size: 42px;
+}
+.about-section p{
+    color:#e9eeef;
+width:600px;
+font-size: 22px;
+
+}
+
+.aboutme-nav a{
+    margin-right:20px;
+    color:#ADB7BA;
+    font-size: 22px;
+  
+    caret-color: transparent;
+    cursor: pointer;
+   
+}
+
+.aboutme-nav a:hover{
+    color:#eef4f5;
+   
+}
+li{
+    color:#eef4f5;
+    font-size: 19px;
+    padding: 5px;
+   
+   
+}
+
+  .aboutme-nav a {
+    text-decoration: none;
+    color: rgb(160, 158, 158);
+    padding: 10px;
+    font-size: 18px;
+    position: relative;
+    transition: color 0.3s ease-in-out; /* Smooth color change */
+}
+
+.aboutme-nav a::after {
+    content: "";
+    position: absolute;
+    left: 5px;
+    bottom: 5px; /* Adjust underline position */
+    width: 0;
+    height: 2px;
+    background-color: rgb(174, 79, 152);
+    transition: width 0.3s ease-in-out; /* Smooth underline animation */
+}
+
+.aboutme-nav a.active {
+    color: rgb(255, 255, 255); /* Optional: Change text color when active */
+}
+
+.aboutme-nav a.active::after {
+    width: 90%; /* Expand underline smoothly */
+}

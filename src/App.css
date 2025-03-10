@@ -1,13 +1,16 @@
-nav a{
+.navItems a{
     color:#ADB7BA;
     text-decoration: none;
     font-size: 25px;
     font-family: "Arial", sans-serif;
     padding:10px;
-    margin:10px;
+    margin:15px;
    
 }
-nav{
+.navItems a:hover{
+    color:#e6eced;
+}
+.navItems{
     display:flex;
     flex-direction: row;
     justify-content: end;
