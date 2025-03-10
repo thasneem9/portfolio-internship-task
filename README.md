@@ -1,83 +1,45 @@
-Portfolio Project
+# 🚀 Portfolio Project  
+
+## 📌 Description  
+This is my **personal portfolio website** showcasing my skills, projects, and experiences.  
+🛠️ **Created as part of an internship task at Craft Your Careers.**  
+## 🔗 Live Demo
+[PREVIEW LINK](https://thasneem9.github.io/portfolio-internship-task/)
 
 
-
-🚀 Overview
-
-This is my personal portfolio website showcasing my skills, projects, and experience as a developer. It is designed to be fast, responsive, and visually appealing.
-
-Created as part of an internship task at Craft Your Careers.
-
-🔗 Live Demo
-
-Visit the Portfolio
-
-🛠 Tech Stack
-
-Frontend: HTML, CSS, JavaScript, React
-
-Backend: Node.js, Express (if applicable)
-
-Database: MongoDB/PostgreSQL (if applicable)
-
-Deployment: Vercel/Netlify/GitHub Pages
-
-🎨 Features
-
-Responsive and modern UI
-
-Showcases my projects with live links
-
-Contact form for inquiries
-
-Smooth animations and transitions
-
-Dark and light mode support (if implemented)
-
-📸 Screenshots
+## 🖼️ Screenshots
+![image](https://github.com/user-attachments/assets/664a298c-10c9-4fd1-b4db-25630a31173b)
+![image](https://github.com/user-attachments/assets/86e4de55-6f7d-490c-8477-5b224d23130a)
+![image](https://github.com/user-attachments/assets/c156a354-91d4-4c26-9358-c989435af0b7)
 
 
+## ✨ Features  
+✔️ Responsive design  
+✔️ Projects section with live demo links  
+✔️smooth transition and Typing effects
 
-📂 Folder Structure
+## 🛠️ Technologies Used  
+🔹 **Frontend:** HTML, CSS, React.js
 
-project-root/
-│── public/
-│── src/
-│   ├── components/
-│   ├── pages/
-│   ├── assets/
-│── package.json
-│── README.md
-
-🚀 Installation
-
-Clone the repository:
-
-git clone INSERT_REPO_LINK_HERE
-
-Navigate to the project directory:
-
-cd portfolio-project
-
-Install dependencies:
-
+## 🚀 Installation  
+1️⃣ **Clone the repository:**  
+   ```sh
+https://github.com/thasneem9/portfolio-internship-task.git
+```
+2️⃣ **Navigate to the project folder:**  
+  ```sh
+cd portfolio-internship-task
+```
+3️⃣  **Install dependencies:**
+```sh
 npm install
+```
+ 4️⃣ **Run Project:**
+```sh
+npm run dev
+```
 
-Start the development server:
-
-npm start
-
-🔗 Links
-
-GitHub Repository: Portfolio Repo
-
-Live Website: Visit Here
-
-📬 ContactFor any inquiries, reach out via:
-
-Email: your-email@example.com
-
-LinkedIn: Your LinkedIn Profile
-
-Made with ❤️ by [Your Name]
+## 📬 Contact
+📧 Email: thasneemchalil@gmail.com
+🔗 LinkedIn: [Your Profile](https://www.linkedin.com/in/thasneem-c-a70a75206/)
 
