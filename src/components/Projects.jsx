@@ -11,6 +11,8 @@ import project6 from '../../assets/project-6.png';
 import project7 from '../../assets/project-7.png';
 import project8 from '../../assets/project-8.png';
 import project9 from '../../assets/project-9.png';
+import project10 from '../../assets/project-10.jpg';
+import project11 from '../../assets/project11.jpg';
 
 const Projects = () => {
 
@@ -21,9 +23,11 @@ const Projects = () => {
     { id: "4", name: "Fun To-Do List Application", src: project4, url: "https://thasneem9.github.io/todoapp/" },
     { id: "5", name: "Birds and Their Sounds Fun Project", src: project5, url: "https://thasneem9.github.io/birdSounds/" },
     { id: "6", name: "Nike Shoe Product Display Card", src: project6, url: "https://thasneem9.github.io/3d-card/" },
-    { id: "7", name: "Currency Converter Mini Project", src: project7, url: "https://thasneem9.github.io/3d-card/" },
+    { id: "10", name: "Hair Saloon Website Modern UI", src: project10, url: "https://thasneem9.github.io/HairDay-FinalProject/" },
+    { id: "7", name: "Currency Converter Mini Project", src: project7, url: "https://github.com/thasneem9/ex231currency/blob/main/README.md" },
     { id: "8", name: "HTML CSS Mini Projects", src: project8, url: "https://thasneem9.github.io/PORTFOLIO" },
-    { id: "9", name: "Full Stack Blog Application (PERN Stack)", src: project9, url: "https://youtu.be/rtoxiNASIXA" }
+/*     { id: "11", name: "Plant Shop Commerce Website Frontend", src: project11, url: "https://thasneem9.github.io/myplantshop" },
+ */    { id: "9", name: "Full Stack Blog Application (PERN Stack)", src: project9, url: "https://youtu.be/rtoxiNASIXA" }
   ];
 
   return (
