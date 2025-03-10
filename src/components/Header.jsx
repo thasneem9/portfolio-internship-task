@@ -15,7 +15,7 @@ function Header() {
              words={['Web Developer', 'UI/UX Designer', 'Thasneem']}
              loop={Infinity}
              cursor
-             cursorStyle="▍"  // Thicker caret
+             cursorStyle="▎"  
              typeSpeed={50}
              deleteSpeed={30}
              delaySpeed={1000}
