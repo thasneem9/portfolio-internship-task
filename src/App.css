@@ -27,7 +27,7 @@
     color: white; /* Ensures text is visible */
     text-align: center;
     z-index: 1000; /* Keeps navbar above other elements */
-    height:80px;
+    height:60px;
 }
 body{
     background-color: #121212;
