@@ -8,7 +8,7 @@ function Header() {
       <div className="col-1">
         <h1 className="h2-hello">Hello, I'm</h1>
         <h1 className='h2-typing-effect'>
-          I'm a{' '}
+          {' '}
           <span style={{ color: '#fff', fontWeight: 'bold', fontSize:'72px' }}>
           <Typewriter
              words={['Web Developer', 'UI/UX Designer', 'Thasneem']}
@@ -32,6 +32,7 @@ function Header() {
           </a>
         </div>
       </div>
+      
       <div className="col-2">
         <img src="./assets/logo.png" alt="Logo" />
       </div>

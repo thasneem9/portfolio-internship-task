@@ -32,3 +32,11 @@
 body{
     background-color: #121212;
 }
+
+@media (max-width: 1024px) {
+    /* Styles for tablets and smaller devices */
+    .container{
+        flex-direction: column;
+    }
+  }
+  
