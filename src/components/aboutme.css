@@ -55,29 +55,29 @@ li{
     padding: 10px;
     font-size: 18px;
     position: relative;
-    transition: color 0.3s ease-in-out; /* Smooth color change */
+    transition: color 0.3s ease-in-out; 
 }
 
 .aboutme-nav a::after {
     content: "";
     position: absolute;
     left: 5px;
-    bottom: 5px; /* Adjust underline position */
+    bottom: 5px; 
     width: 0;
     height: 2px;
     background-color: rgb(174, 79, 152);
-    transition: width 0.3s ease-in-out; /* Smooth underline animation */
+    transition: width 0.3s ease-in-out; 
 }
 
 .aboutme-nav a.active {
-    color: rgb(255, 255, 255); /* Optional: Change text color when active */
+    color: rgb(255, 255, 255); 
 }
 
 .aboutme-nav a.active::after {
-    width: 90%; /* Expand underline smoothly */
+    width: 90%; 
 }
 
-/* Adjust layout for smaller screens */
+
 @media (max-width: 1024px) {
     .about-container {
         flex-direction: column;
@@ -98,7 +98,7 @@ li{
     }
 }
 
-/* Further adjustments for tablets */
+
 @media (max-width: 468px) and (min-width:199px) {
     .about-container {
         margin-left: 10px;

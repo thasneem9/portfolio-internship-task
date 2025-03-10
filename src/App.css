@@ -19,14 +19,14 @@
     justify-content: end;
     gap:20px;
 
-    position: fixed; /* Keeps navbar at the top */
+    position: fixed; /* Keeps myynavbar at the top */
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #121212; /* Dark background */
-    color: white; /* Ensures text is visible */
+    background-color: #121212; 
+        color: white; 
     text-align: center;
-    z-index: 1000; /* Keeps navbar above other elements */
+    z-index: 1000;
     height:60px;
 }
 body{
@@ -34,7 +34,7 @@ body{
 }
 
 @media (max-width: 1024px) {
-    /* Styles for tablets and smaller devices */
+
     .container{
         flex-direction: column;
     }

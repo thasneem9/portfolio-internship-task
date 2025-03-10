@@ -13,6 +13,7 @@ import project8 from '../../assets/project-8.png';
 import project9 from '../../assets/project-9.png';
 import project10 from '../../assets/project-10.jpg';
 import project11 from '../../assets/project11.jpg';
+import project12 from '../../assets/project12.jpg';
 
 const Projects = () => {
 
@@ -20,6 +21,7 @@ const Projects = () => {
     { id: "1", name: "Premium Design Taj Royal Restaurant", src: project1, url: "https://thasneem9.github.io/taj-royal-restaurant/" },
     { id: "2", name: "InstaWave Full Stack Application", src: project2, url: "https://www.youtube.com/watch?v=HR9lszepjRQ" },
     { id: "3", name: "View Point Tourist Home Website", src: project3, url: "https://thasneem9.github.io/viewPointTouristHome/" },
+    { id: "12", name: "Portfolio Project Interactive UI", src: project12, url: "https://thasneem9.github.io/portfolio-nextjs/" },
     { id: "4", name: "Fun To-Do List Application", src: project4, url: "https://thasneem9.github.io/todoapp/" },
     { id: "5", name: "Birds and Their Sounds Fun Project", src: project5, url: "https://thasneem9.github.io/birdSounds/" },
     { id: "6", name: "Nike Shoe Product Display Card", src: project6, url: "https://thasneem9.github.io/3d-card/" },
