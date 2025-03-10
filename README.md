@@ -1,12 +1,83 @@
-# React + Vite
+Portfolio Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🚀 Overview
 
-## Expanding the ESLint configuration
+This is my personal portfolio website showcasing my skills, projects, and experience as a developer. It is designed to be fast, responsive, and visually appealing.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Created as part of an internship task at Craft Your Careers.
+
+🔗 Live Demo
+
+Visit the Portfolio
+
+🛠 Tech Stack
+
+Frontend: HTML, CSS, JavaScript, React
+
+Backend: Node.js, Express (if applicable)
+
+Database: MongoDB/PostgreSQL (if applicable)
+
+Deployment: Vercel/Netlify/GitHub Pages
+
+🎨 Features
+
+Responsive and modern UI
+
+Showcases my projects with live links
+
+Contact form for inquiries
+
+Smooth animations and transitions
+
+Dark and light mode support (if implemented)
+
+📸 Screenshots
+
+
+
+📂 Folder Structure
+
+project-root/
+│── public/
+│── src/
+│   ├── components/
+│   ├── pages/
+│   ├── assets/
+│── package.json
+│── README.md
+
+🚀 Installation
+
+Clone the repository:
+
+git clone INSERT_REPO_LINK_HERE
+
+Navigate to the project directory:
+
+cd portfolio-project
+
+Install dependencies:
+
+npm install
+
+Start the development server:
+
+npm start
+
+🔗 Links
+
+GitHub Repository: Portfolio Repo
+
+Live Website: Visit Here
+
+📬 ContactFor any inquiries, reach out via:
+
+Email: your-email@example.com
+
+LinkedIn: Your LinkedIn Profile
+
+Made with ❤️ by [Your Name]
+
