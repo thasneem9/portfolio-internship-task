@@ -1,0 +1,25 @@
+.lets-connect{
+    color: aliceblue;
+    text-align: center;
+    margin:24px;
+    padding: 30px;
+    font-size: 40px;;
+}
+.social-links{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+.icon{
+    padding: 10px;
+    transition: transform 0.3s ease-in-out;
+
+}
+.icon:hover{
+    transform: scale(1.2);
+
+}
+.copyright{
+    color: #fff;
+    text-align: center;
+}

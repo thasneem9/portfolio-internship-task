@@ -27,11 +27,13 @@ function Header() {
 
         <div className="button-group">
           <button className='gradient-button'>Hire Me</button>
+          <a href="#contact">
           <button className='border-button'>Contact Me</button>
+          </a>
         </div>
       </div>
       <div className="col-2">
-        <img src="/assets/logo.png" alt="Logo" />
+        <img src="./assets/logo.png" alt="Logo" />
       </div>
     </div>
   );
