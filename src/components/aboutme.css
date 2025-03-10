@@ -76,3 +76,89 @@ li{
 .aboutme-nav a.active::after {
     width: 90%; /* Expand underline smoothly */
 }
+
+/* Adjust layout for smaller screens */
+@media (max-width: 1024px) {
+    .about-container {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 20px;
+        margin-top: 50px;
+        gap: 30px;
+    }
+
+    .about-container img {
+        width: 80%;
+        height: auto;
+    }
+
+    .about-section p {
+        width: 90%;
+        font-size: 20px;
+    }
+}
+
+/* Further adjustments for tablets */
+@media (max-width: 768px) {
+    .about-container {
+        margin-left: 10px;
+        gap: 20px;
+    }
+
+    .about-container img {
+        width: 90%;
+    }
+
+    .about-section h2 {
+        font-size: 36px;
+    }
+
+    .about-section p {
+        font-size: 18px;
+    }
+
+    .aboutme-nav a {
+        font-size: 18px;
+        margin-right: 15px;
+    }
+
+    li {
+        font-size: 17px;
+    }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 480px) {
+    .about-container {
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .about-container img {
+        width: 100%;
+    }
+
+    .about-section h2 {
+        font-size: 28px;
+    }
+
+    .about-section p {
+        font-size: 16px;
+        width: 100%;
+    }
+
+    .aboutme-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .aboutme-nav a {
+        font-size: 16px;
+        margin: 5px 0;
+    }
+
+    li {
+        font-size: 16px;
+    }
+}
