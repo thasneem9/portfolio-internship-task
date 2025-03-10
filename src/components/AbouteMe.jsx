@@ -19,7 +19,7 @@ export const AbouteMe = () => {
 
   return (
     <>
-    <div className='about-container'>
+    <div className='about-container' id="about">
         <img
         src="https://user-images.githubusercontent.com/24864482/111586408-c8dd8a80-878e-11eb-94c8-483e2962a667.gif"></img>
     
