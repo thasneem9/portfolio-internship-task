@@ -5,6 +5,9 @@
     font-family: "Arial", sans-serif;
     padding:10px;
     margin:15px;
+
+
+    
    
 }
 .navItems a:hover{
@@ -15,6 +18,16 @@
     flex-direction: row;
     justify-content: end;
     gap:20px;
+
+    position: fixed; /* Keeps navbar at the top */
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #121212; /* Dark background */
+    color: white; /* Ensures text is visible */
+    text-align: center;
+    z-index: 1000; /* Keeps navbar above other elements */
+    height:80px;
 }
 body{
     background-color: #121212;
