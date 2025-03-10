@@ -99,7 +99,7 @@ li{
 }
 
 /* Further adjustments for tablets */
-@media (max-width: 768px) and (min-width:199px) {
+@media (max-width: 465px) and (min-width:199px) {
     .about-container {
         margin-left: 10px;
         gap: 20px;
