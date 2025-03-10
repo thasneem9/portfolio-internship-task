@@ -186,4 +186,9 @@ button:hover {
     .col-2 img {
         width: 60%;
     }
+
+    .main-heading{
+        height: 270px;
+        border: 2px solid gainsboro;
+    }
 }

@@ -6,6 +6,7 @@ function Header() {
   return (
     <div className="container">
       <div className="col-1">
+        <div className='main-heading'>
         <h1 className="h2-hello">Hello, I'm</h1>
         <h1 className='h2-typing-effect'>
           {' '}
@@ -21,6 +22,7 @@ function Header() {
             />
           </span>
         </h1>
+        </div>
         <p>
           My name is Thasneem, and I'm an eager learner and explorer. I've just entered the world of programming, and I'm slowly but consistently progressing every day.
         </p>
