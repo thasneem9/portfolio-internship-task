@@ -142,53 +142,45 @@ button:hover {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) and (min-width:199px) {
     .h2-hello {
         font-size: 50px;
     }
 
-    .h2-typing-effect {
-        font-size: 40px !important;
+    span {
+        font-size: 50px;
         text-align: center;
       margin:0px;
+    }
+    .navItems{
+        gap:0.3px;
+        
     }
     
 
     .col-1 p {
-        font-size: 20px;
+        width: 100%;
+        font-size: 22px;
+        margin-left: 0;
     }
 
     .col-2 img {
         width: 70%;
     }
-}
-
-@media screen and (max-width: 480px) {
-    .h2-hello {
-        font-size: 40px;
+    .gradient-button{
+        width:100px;
+        font-size: 10px;
+        font-weight: normal;
+        padding:9px;
     }
-
-    .h2-typing-effect {
-        font-size: 32px !important;
-      text-align: center;
-      margin:0px;
+    .border-button{
+        width:96px;
+        font-size: 7px;
+        font-weight: normal;
+        padding:9px;
     }
-
-    .col-1 p {
-        font-size: 18px;
-    }
-
-    .button-group {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .col-2 img {
-        width: 60%;
-    }
-
     .main-heading{
-        height: 270px;
-     
+        height:400px;
+       /*  border: 2px solid #696ff6; */
     }
 }

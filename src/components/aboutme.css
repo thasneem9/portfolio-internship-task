@@ -99,10 +99,11 @@ li{
 }
 
 /* Further adjustments for tablets */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width:199px) {
     .about-container {
         margin-left: 10px;
         gap: 20px;
+      /*   border: 2px solid white; */
     }
 
     .about-container img {
@@ -125,79 +126,4 @@ li{
     li {
         font-size: 17px;
     }
-}
-
-/* Mobile responsiveness */
-@media (max-width: 480px) {
-    .about-container {
-        margin-left: 0;
-        text-align: center;
-    }
-
-    .about-container img {
-        width: 100%;
-    }
-
-    .about-section h2 {
-        font-size: 28px;
-    }
-
-    .about-section p {
-        font-size: 16px;
-        width: 100%;
-    }
-
-    .aboutme-nav {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .aboutme-nav a {
-        font-size: 16px;
-        margin: 5px 0;
-    }
-
-    li {
-        font-size: 16px;
-    }
-}
-
-
-@media (max-width: 480px) {
-    .aboutme-nav {
-        display: flex;
-        flex-direction: row; /* Ensure it stays in a row */
-        justify-content: center; /* Center the items */
-        gap: 10px; /* Add some spacing */
-        flex-wrap: wrap; /* Allow wrapping if needed */
-    }
-
-    .aboutme-nav a {
-        font-size: 14px; /* Reduce font size */
-        margin: 3px 5px; /* Adjust spacing */
-        padding: 0px; /* Smaller padding */
-        ul {
-            list-style-type: disc; /* Ensure bullet points are uniform */
-            padding-left: 20px; /* Adjust to align bullets properly */
-        }
-        
-        ul li {
-            text-align: left; /* Ensure text aligns properly */
-            margin-left: 0; /* Remove extra indentation */
-            display: flex;
-            align-items: center; /* Align bullet and text */
-            gap: 5px; /* Space between bullet and text */
-        }
-        
-        ul li::marker {
-            font-size: 14px; /* Adjust bullet size if needed */
-        }
-        
-
-        
-        
-
-    }
- 
 }
