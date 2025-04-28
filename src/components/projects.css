@@ -43,3 +43,50 @@
     object-fit: cover;
     border-radius: 8px;
 }
+
+/*  */
+.icons-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+    opacity: 0; /* Initially hide the icons and text */
+    transition: opacity 0.3s ease-in-out; /* Smooth transition for showing icons and text */
+  }
+  
+  .project-card:hover .icons-container {
+    opacity: 1; /* Show icons and text when card is hovered */
+  }
+  
+  .icon-item {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: #fff;
+    font-size: 14px;
+  }
+  
+  .icon-item svg {
+    font-size: 20px;
+  }
+  
+  .icon-text {
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: color 0.3s;
+  }
+  
+  .icon-item:hover .icon-text,
+  .icon-item:hover svg {
+    color: #ffcc00; /* Change color on hover */
+  }
+  
+  /* Media query for mobile/tablet devices */
+  @media (max-width: 768px) {
+    .icons-container {
+      opacity: 1; /* Always show icons and text on mobile/tablet */
+    }
+  }
+  
