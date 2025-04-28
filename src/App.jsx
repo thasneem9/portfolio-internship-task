@@ -5,6 +5,7 @@ import ContactMe from './components/ContactMe'
 import Header  from './components/Header'
 import NavBar from './components/NavBar'
 import Projects from './components/Projects'
+import Skills from './components/Skills'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
      <NavBar/>
      <Header/>
      <AbouteMe/>
+     <Skills/>
      <Projects/>
      <ContactMe/>
    

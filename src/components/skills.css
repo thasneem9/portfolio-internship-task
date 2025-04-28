@@ -1,0 +1,167 @@
+.skills-container {
+  background-color: #121212;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}
+
+.skills-title {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.skills-row {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.skill-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  background: #000;
+  position: relative;
+  color: white;
+  font-size: 1.1rem;
+  transition: transform 0.3s ease;
+}
+
+.skill-item:hover {
+  transform: scale(1.08);
+}
+
+.skill-item::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 2px;
+  border-radius: 30px;
+  background: linear-gradient(45deg, #696ff6, #cf4dc0, #ff6699);
+  -webkit-mask: 
+    linear-gradient(#fff 0 0) content-box, 
+    linear-gradient(#fff 0 0);
+  -webkit-mask-composite: xor;
+  mask-composite: exclude;
+  pointer-events: none;
+}
+
+.skill-icon {
+  font-size: 1.5rem;
+  position: relative;
+}
+
+/* Special blurry soft colors behind each icon */
+.skill-icon::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  filter: blur(8px);
+  z-index: -1;
+}
+
+/* Specific colors */
+.node-icon::after {
+  background: rgba(100, 221, 23, 0.25);
+}
+
+.express-icon::after {
+  background: rgba(200, 200, 200, 0.2);
+}
+
+.mongo-icon::after {
+  background: rgba(77, 179, 61, 0.3);
+}
+
+.react-icon::after {
+  background: rgba(97, 219, 251, 0.25);
+}
+
+.python-icon::after {
+  background: rgba(255, 215, 0, 0.25);
+}
+
+.java-icon::after {
+  background: rgba(255, 87, 34, 0.25);
+}
+
+.c-icon::after {
+  background: rgba(66, 165, 245, 0.25);
+}
+
+.mysql-icon::after {
+  background: rgba(0, 150, 136, 0.25);
+}
+
+.render-icon::after {
+  background: rgba(156, 39, 176, 0.25);
+}
+
+.html-icon::after {
+  background: rgba(255, 87, 34, 0.25);
+}
+
+.css-icon::after {
+  background: rgba(30, 144, 255, 0.25);
+}
+
+.js-icon::after {
+  background: rgba(255, 235, 59, 0.25);
+}
+/* Color the icons slightly */
+.node-icon {
+  color: #68A063;
+}
+
+.express-icon {
+  color: #cccccc;
+}
+
+.mongo-icon {
+  color: #4DB33D;
+}
+
+.react-icon {
+  color: #61DBFB;
+}
+
+.python-icon {
+  color: #FFD43B;
+}
+
+.java-icon {
+  color: #E76F00;
+}
+
+.c-icon {
+  color: #659AD2;
+}
+
+.mysql-icon {
+  color: #00758F;
+}
+
+.render-icon {
+  color: #6C47FF;
+}
+
+.html-icon {
+  color: #E34F26;
+}
+
+.css-icon {
+  color: #264de4;
+}
+
+.js-icon {
+  color: #F7DF1E;
+}

@@ -76,6 +76,162 @@ li{
 .aboutme-nav a.active::after {
     width: 90%; 
 }
+/* Base styles */
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    gap: 16px;
+    margin-top: 20px;
+}
+
+.skill-card {
+    background: #f8f8f8;
+    border-radius: 12px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-weight: 500;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Hover effects for all skill cards */
+.skill-card:hover {
+    transform: scale(1.05);
+    background: #e0f7fa;
+}
+
+/* React - Blue */
+.skill-card.react {
+    background-color: #61DBFB;
+    color: #fff;
+}
+
+.skill-card.react:hover {
+    background-color: #21a1f1;
+}
+
+/* JavaScript - Yellow */
+.skill-card.js {
+    background-color: #F7DF1E;
+    color: #333;
+}
+
+.skill-card.js:hover {
+    background-color: #e6c100;
+}
+
+/* HTML5 - Orange */
+.skill-card.html {
+    background-color: #E34F26;
+    color: #fff;
+}
+
+.skill-card.html:hover {
+    background-color: #c13515;
+}
+
+/* CSS - Blue */
+.skill-card.css {
+    background-color: #2965F1;
+    color: #fff;
+}
+
+.skill-card.css:hover {
+    background-color: #1758c1;
+}
+
+/* Node.js - Green */
+.skill-card.node {
+    background-color: #339933;
+    color: #fff;
+}
+
+.skill-card.node:hover {
+    background-color: #278a28;
+}
+
+/* Express.js - Dark Gray */
+.skill-card.express {
+    background-color: #000000;
+    color: #fff;
+}
+
+.skill-card.express:hover {
+    background-color: #444444;
+}
+
+/* Python - Blue */
+.skill-card.python {
+    background-color: #306998;
+    color: #fff;
+}
+
+.skill-card.python:hover {
+    background-color: #274a6a;
+}
+
+/* Java - Red */
+.skill-card.java {
+    background-color: #007396;
+    color: #fff;
+}
+
+.skill-card.java:hover {
+    background-color: #005b73;
+}
+
+/* PostgreSQL - Blue */
+.skill-card.postgresql {
+    background-color: #336791;
+    color: #fff;
+}
+
+.skill-card.postgresql:hover {
+    background-color: #254a70;
+}
+
+/* MongoDB - Green */
+.skill-card.mongodb {
+    background-color: #47A248;
+    color: #fff;
+}
+
+.skill-card.mongodb:hover {
+    background-color: #3a7b3a;
+}
+
+/* MySQL - Light Blue */
+.skill-card.mysql {
+    background-color: #00618A;
+    color: #fff;
+}
+
+.skill-card.mysql:hover {
+    background-color: #004f6b;
+}
+
+
+
+.skill-card {
+  background: #f8f8f8;
+  border-radius: 12px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-weight: 500;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.skill-card:hover {
+  transform: scale(1.05);
+  background: #e0f7fa;
+}
 
 
 @media (max-width: 1024px) {
