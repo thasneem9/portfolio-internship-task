@@ -22,7 +22,7 @@ export const AbouteMe = () => {
         
             <div className='about-section'>
                 <h2>About Me</h2>
-                <p>I'm Thasneem, a programmer with a passion for web development. My journey into web development has been driven by a commitment to deliver the best designs, I strive to bring ideas to life and exceed expectations. When I'm not coding, you can find me painting and reading fiction. Let's collaborate and turn your visions into reality!</p>
+                <p>I'm Thasneem, currently pursuing a Bachelor's degree in Computer Applications. I enjoy working on new technologies that can help solve day-to-day problems. If you're looking to connect, my inbox is always open.</p>
                 <nav className='aboutme-nav'>
 
                      
