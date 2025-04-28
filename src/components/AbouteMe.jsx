@@ -24,24 +24,31 @@ export const AbouteMe = () => {
                 <h2>About Me</h2>
                 <p>I'm Thasneem, a programmer with a passion for web development. My journey into web development has been driven by a commitment to deliver the best designs, I strive to bring ideas to life and exceed expectations. When I'm not coding, you can find me painting and reading fiction. Let's collaborate and turn your visions into reality!</p>
                 <nav className='aboutme-nav'>
-{/*                     <a onClick={handleClick} id="skills" className={navItem === "skills" ? "active" : ""}>Skills</a>
- */}                    
+
+                     
                     <a onClick={handleClick} id="certifications" className={navItem === "certifications" ? "active" : ""}>Certifications</a>
+                    <a onClick={handleClick} id="experience" className={navItem === "experience" ? "active" : ""}>Experience</a>
                     <a onClick={handleClick} id="education" className={navItem === "education" ? "active" : ""}>Education</a>
                 </nav>
                 
-                { navItem === 'education' ? (
-                    <ul>
-                        <li>ICFAI Foundation for Higher Education deemed to be University, Hyderabad</li>
-                        <li>International Indian School (IISJ), KSA</li>
-                    </ul>
-                ) : (
-                    <ul>
-                        <li>Meta Frontend Developer Professional Certificate, Meta</li>
-                        <li>IBM Backend Developer, Coursera</li>
-                        <li>Responsive Web Design, FreeCodeCamp</li>
-                    </ul>
-                )}
+                {navItem === 'education' ? (
+    <ul>
+        <li>ICFAI deemed to be University, Hyderabad (9.27 GPA)</li>
+        <li>International Indian School, KSA (91%)</li>
+    </ul>
+) : navItem === 'experience' ? (
+    <ul>
+        <li>Frontend Developer Intern, CraftYourCareers,  Hyderbad (March - April 2025)</li>
+        <li>Freelance Web Developer, View Point Tourist Home, Kerala(July - August 2024)</li>
+    </ul>
+) : (
+    <ul>
+        <li>Meta Frontend Developer Professional Certificate, Meta</li>
+        <li>IBM Backend Developer, Coursera</li>
+        <li>Responsive Web Design, FreeCodeCamp</li>
+    </ul>
+)}
+
             </div>
         </div>
         </>

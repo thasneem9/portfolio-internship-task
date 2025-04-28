@@ -28,10 +28,13 @@ function Header() {
         </p>
 
         <div className="button-group">
-          <button className='gradient-button'>Hire Me</button>
           <a href="#contact">
-          <button className='border-button'>Contact Me</button>
+          <button className='gradient-button'>Contact Me</button>
           </a>
+          <a href="https://drive.google.com/file/d/1MVZ9dFPf4MrUJxEA9lN3muJsH4JlB3jH/view?usp=sharing" target="_blank">
+  <button className='border-button'>Download Resume</button>
+</a>
+
         </div>
       </div>
       
