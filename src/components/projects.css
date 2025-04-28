@@ -72,17 +72,24 @@
   
   .icon-text {
     display: inline-block;
-    font-size: 14px;
-    text-transform: uppercase;
+    font-size: 20px;
+ 
     cursor: pointer;
     transition: color 0.3s;
+    text-decoration: none;
+    text-decoration-color:transparent ;
   }
   
   .icon-item:hover .icon-text,
   .icon-item:hover svg {
-    color: #ffcc00; /* Change color on hover */
+    color: #801667; 
+    text-decoration: none;
+    text-decoration-color:transparent ;
   }
-  
+  .project-card a{
+    text-decoration: none;
+    text-decoration-color:transparent ;
+  }
   /* Media query for mobile/tablet devices */
   @media (max-width: 768px) {
     .icons-container {
