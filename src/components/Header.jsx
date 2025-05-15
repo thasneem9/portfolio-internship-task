@@ -31,7 +31,7 @@ function Header() {
           <a href="#contact">
           <button className='gradient-button'>Contact Me</button>
           </a>
-          <a href="https://drive.google.com/file/d/1MVZ9dFPf4MrUJxEA9lN3muJsH4JlB3jH/view?usp=sharing" target="_blank">
+          <a href="https://drive.google.com/file/d/1_p6G4jG5-h7JP2KJaqsh52Bl_-13T4h8/view?usp=sharing" target="_blank">
   <button className='border-button'>Download Resume</button>
 </a>
 
