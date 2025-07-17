@@ -16,6 +16,7 @@ import project11 from '../../assets/project11.jpg';
 import project12 from '../../assets/project12.jpg';
 import project13 from '../../assets/project13.png';
 import project14 from '../../assets/project14.png';
+import project15 from '../../assets/project15.png';
 
 const Projects = () => {
 
@@ -31,7 +32,8 @@ const Projects = () => {
     { id: "7", name: "Currency Converter Mini Project", src: project7, preview: false, youtube: "", code: "https://github.com/thasneem9/ex231currency", readme: "https://github.com/thasneem9/ex231currency/blob/main/README.md" },
     { id: "8", name: "HTML CSS Mini Projects", src: project8, preview: "https://thasneem9.github.io/PORTFOLIO", youtube: "", code: "https://github.com/thasneem9/PORTFOLIO", readme: false },
     { id: "9", name: "Full Stack Blog Application (PERN Stack)", src: project9, preview: "", youtube: "https://youtu.be/rtoxiNASIXA", code: "https://github.com/thasneem9/PERN-Blog-App", readme: false },
-    { id: "14", name: "Leave Mangement System (ongoing)", src: project14, preview: "", youtube: "", code: "" ,readme: "" ,prototype:"https://www.figma.com/design/lmk7EgWxD2xgekn0Q5C54l/Leave-Management-System?node-id=0-1&p=f&t=9aAZMw072ZuJ7XfK-0"}
+    { id: "14", name: "Leave Mangement System (ongoing)", src: project14, preview: "", youtube: "", code: "" ,readme: "" ,prototype:"https://www.figma.com/design/lmk7EgWxD2xgekn0Q5C54l/Leave-Management-System?node-id=0-1&p=f&t=9aAZMw072ZuJ7XfK-0"},
+    { id: "15", name: "Memory Game Multiplayer", src: project15, preview: "http://54.179.69.173/", youtube: "", code: "https://github.com/thasneem9/MemoryGame" ,readme: "https://github.com/thasneem9/MemoryGame/blob/main/README.md"}
   ];
 
   return (
